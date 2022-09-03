@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B47B3C8928C26DE70082C5F4 /* novelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47B3C8828C26DE70082C5F4 /* novelViewController.swift */; };
+		B4897E4028C08B7600BF07DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4897E3F28C08B7600BF07DB /* AppDelegate.swift */; };
+		B4897E4228C08B7600BF07DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4897E4128C08B7600BF07DB /* SceneDelegate.swift */; };
+		B4897E4428C08B7600BF07DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4897E4328C08B7600BF07DB /* ViewController.swift */; };
+		B4897E4728C08B7600BF07DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4897E4528C08B7600BF07DB /* Main.storyboard */; };
+		B4897E4C28C08B7700BF07DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4897E4A28C08B7700BF07DB /* LaunchScreen.storyboard */; };
+		B4897E5528C08E1200BF07DB /* 玉ねぎ楷書激無料版v6.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4897E5428C08E1200BF07DB /* 玉ねぎ楷書激無料版v6.ttf */; };
+		B4897E5728C0976500BF07DB /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4897E5628C0976500BF07DB /* ScoreViewController.swift */; };
+		B4897E5928C097F800BF07DB /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4897E5828C097F800BF07DB /* startViewController.swift */; };
+		B4ABA0D728C348CD009D0B71 /* MusMus-BGM-122.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0D628C348CD009D0B71 /* MusMus-BGM-122.mp3 */; };
+		B4ABA0D928C348D3009D0B71 /* nc263171.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0D828C348D3009D0B71 /* nc263171.mp3 */; };
+		B4ABA0DD28C3531E009D0B71 /* RendaManagerV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ABA0DC28C3531E009D0B71 /* RendaManagerV.swift */; };
+		B4ABA0DF28C3553F009D0B71 /* duel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0DE28C3553F009D0B71 /* duel.mp3 */; };
+		B4ABA0E128C35D2A009D0B71 /* guiter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0E028C35D2A009D0B71 /* guiter.mp3 */; };
+		B4ABA0E528C38534009D0B71 /* syujinkouase_emi.png in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0E228C38533009D0B71 /* syujinkouase_emi.png */; };
+		B4ABA0E628C38534009D0B71 /* syujinkouase.png in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0E328C38533009D0B71 /* syujinkouase.png */; };
+		B4ABA0E728C38534009D0B71 /* syujinkouemi.png in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0E428C38534009D0B71 /* syujinkouemi.png */; };
+		B4ABA0EB28C3853B009D0B71 /* tekiase_emi.png in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0E828C3853B009D0B71 /* tekiase_emi.png */; };
+		B4ABA0EC28C3853B009D0B71 /* tekiase.png in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0E928C3853B009D0B71 /* tekiase.png */; };
+		B4ABA0ED28C3853B009D0B71 /* tekiemi.png in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0EA28C3853B009D0B71 /* tekiemi.png */; };
+		B4ABA0EF28C38548009D0B71 /* hutari.png in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0EE28C38548009D0B71 /* hutari.png */; };
+		B4ABA0F128C38B00009D0B71 /* panch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0F028C38B00009D0B71 /* panch.mp3 */; };
+		B4ABA0F328C38B0C009D0B71 /* decision-6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0F228C38B0C009D0B71 /* decision-6.mp3 */; };
+		B4ABA0F528C3A241009D0B71 /* kathi.png in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0F428C3A241009D0B71 /* kathi.png */; };
+		B4ABA0F728C3A24B009D0B71 /* hikiwake.png in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0F628C3A24B009D0B71 /* hikiwake.png */; };
+		B4ABA0F928C3A25B009D0B71 /* make.png in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0F828C3A25B009D0B71 /* make.png */; };
+		B4ABA0FB28C3A269009D0B71 /* teki.png in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0FA28C3A269009D0B71 /* teki.png */; };
+		B4ABA0FD28C3A272009D0B71 /* syujinkou.png in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0FC28C3A272009D0B71 /* syujinkou.png */; };
+		B4ABA0FF28C3A75E009D0B71 /* naguru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4ABA0FE28C3A75E009D0B71 /* naguru.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B47B3C8828C26DE70082C5F4 /* novelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = novelViewController.swift; sourceTree = "<group>"; };
+		B4897E3C28C08B7600BF07DB /* Renda_Arrenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Renda_Arrenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4897E3F28C08B7600BF07DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4897E4128C08B7600BF07DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B4897E4328C08B7600BF07DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4897E4628C08B7600BF07DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4897E4B28C08B7700BF07DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4897E4D28C08B7700BF07DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4897E5428C08E1200BF07DB /* 玉ねぎ楷書激無料版v6.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "玉ねぎ楷書激無料版v6.ttf"; sourceTree = "<group>"; };
+		B4897E5628C0976500BF07DB /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		B4897E5828C097F800BF07DB /* startViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
+		B4ABA0D628C348CD009D0B71 /* MusMus-BGM-122.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MusMus-BGM-122.mp3"; sourceTree = "<group>"; };
+		B4ABA0D828C348D3009D0B71 /* nc263171.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nc263171.mp3; sourceTree = "<group>"; };
+		B4ABA0DC28C3531E009D0B71 /* RendaManagerV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendaManagerV.swift; sourceTree = "<group>"; };
+		B4ABA0DE28C3553F009D0B71 /* duel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duel.mp3; sourceTree = "<group>"; };
+		B4ABA0E028C35D2A009D0B71 /* guiter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guiter.mp3; sourceTree = "<group>"; };
+		B4ABA0E228C38533009D0B71 /* syujinkouase_emi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = syujinkouase_emi.png; sourceTree = "<group>"; };
+		B4ABA0E328C38533009D0B71 /* syujinkouase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = syujinkouase.png; sourceTree = "<group>"; };
+		B4ABA0E428C38534009D0B71 /* syujinkouemi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = syujinkouemi.png; sourceTree = "<group>"; };
+		B4ABA0E828C3853B009D0B71 /* tekiase_emi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tekiase_emi.png; sourceTree = "<group>"; };
+		B4ABA0E928C3853B009D0B71 /* tekiase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tekiase.png; sourceTree = "<group>"; };
+		B4ABA0EA28C3853B009D0B71 /* tekiemi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tekiemi.png; sourceTree = "<group>"; };
+		B4ABA0EE28C38548009D0B71 /* hutari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hutari.png; sourceTree = "<group>"; };
+		B4ABA0F028C38B00009D0B71 /* panch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = panch.mp3; sourceTree = "<group>"; };
+		B4ABA0F228C38B0C009D0B71 /* decision-6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "decision-6.mp3"; sourceTree = "<group>"; };
+		B4ABA0F428C3A241009D0B71 /* kathi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kathi.png; sourceTree = "<group>"; };
+		B4ABA0F628C3A24B009D0B71 /* hikiwake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hikiwake.png; sourceTree = "<group>"; };
+		B4ABA0F828C3A25B009D0B71 /* make.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = make.png; sourceTree = "<group>"; };
+		B4ABA0FA28C3A269009D0B71 /* teki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teki.png; sourceTree = "<group>"; };
+		B4ABA0FC28C3A272009D0B71 /* syujinkou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = syujinkou.png; sourceTree = "<group>"; };
+		B4ABA0FE28C3A75E009D0B71 /* naguru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = naguru.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4897E3928C08B7600BF07DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4897E3328C08B7600BF07DB = {
+			isa = PBXGroup;
+			children = (
+				B4897E3E28C08B7600BF07DB /* Renda_Arrenge */,
+				B4897E3D28C08B7600BF07DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4897E3D28C08B7600BF07DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4897E3C28C08B7600BF07DB /* Renda_Arrenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4897E3E28C08B7600BF07DB /* Renda_Arrenge */ = {
+			isa = PBXGroup;
+			children = (
+				B4897E5328C08DE100BF07DB /* font */,
+				B4897E3F28C08B7600BF07DB /* AppDelegate.swift */,
+				B4897E4328C08B7600BF07DB /* ViewController.swift */,
+				B4897E4128C08B7600BF07DB /* SceneDelegate.swift */,
+				B4ABA0D628C348CD009D0B71 /* MusMus-BGM-122.mp3 */,
+				B4ABA0E028C35D2A009D0B71 /* guiter.mp3 */,
+				B4ABA0D828C348D3009D0B71 /* nc263171.mp3 */,
+				B4ABA0E228C38533009D0B71 /* syujinkouase_emi.png */,
+				B4ABA0E828C3853B009D0B71 /* tekiase_emi.png */,
+				B4ABA0F228C38B0C009D0B71 /* decision-6.mp3 */,
+				B4ABA0E928C3853B009D0B71 /* tekiase.png */,
+				B4ABA0FE28C3A75E009D0B71 /* naguru.mp3 */,
+				B4ABA0EA28C3853B009D0B71 /* tekiemi.png */,
+				B4ABA0F828C3A25B009D0B71 /* make.png */,
+				B4ABA0FA28C3A269009D0B71 /* teki.png */,
+				B4ABA0F628C3A24B009D0B71 /* hikiwake.png */,
+				B4ABA0F428C3A241009D0B71 /* kathi.png */,
+				B4ABA0FC28C3A272009D0B71 /* syujinkou.png */,
+				B4ABA0F028C38B00009D0B71 /* panch.mp3 */,
+				B4ABA0EE28C38548009D0B71 /* hutari.png */,
+				B4ABA0E328C38533009D0B71 /* syujinkouase.png */,
+				B4ABA0E428C38534009D0B71 /* syujinkouemi.png */,
+				B4ABA0DE28C3553F009D0B71 /* duel.mp3 */,
+				B4897E4528C08B7600BF07DB /* Main.storyboard */,
+				B4897E4A28C08B7700BF07DB /* LaunchScreen.storyboard */,
+				B4897E4D28C08B7700BF07DB /* Info.plist */,
+				B4897E5628C0976500BF07DB /* ScoreViewController.swift */,
+				B4897E5828C097F800BF07DB /* startViewController.swift */,
+				B47B3C8828C26DE70082C5F4 /* novelViewController.swift */,
+				B4ABA0DC28C3531E009D0B71 /* RendaManagerV.swift */,
+			);
+			path = Renda_Arrenge;
+			sourceTree = "<group>";
+		};
+		B4897E5328C08DE100BF07DB /* font */ = {
+			isa = PBXGroup;
+			children = (
+				B4897E5428C08E1200BF07DB /* 玉ねぎ楷書激無料版v6.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4897E3B28C08B7600BF07DB /* Renda_Arrenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4897E5028C08B7700BF07DB /* Build configuration list for PBXNativeTarget "Renda_Arrenge" */;
+			buildPhases = (
+				B4897E3828C08B7600BF07DB /* Sources */,
+				B4897E3928C08B7600BF07DB /* Frameworks */,
+				B4897E3A28C08B7600BF07DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Renda_Arrenge;
+			productName = Renda_Arrenge;
+			productReference = B4897E3C28C08B7600BF07DB /* Renda_Arrenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4897E3428C08B7600BF07DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B4897E3B28C08B7600BF07DB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B4897E3728C08B7600BF07DB /* Build configuration list for PBXProject "Renda_Arrenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4897E3328C08B7600BF07DB;
+			productRefGroup = B4897E3D28C08B7600BF07DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4897E3B28C08B7600BF07DB /* Renda_Arrenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4897E3A28C08B7600BF07DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4897E4C28C08B7700BF07DB /* LaunchScreen.storyboard in Resources */,
+				B4ABA0EB28C3853B009D0B71 /* tekiase_emi.png in Resources */,
+				B4ABA0E628C38534009D0B71 /* syujinkouase.png in Resources */,
+				B4897E5528C08E1200BF07DB /* 玉ねぎ楷書激無料版v6.ttf in Resources */,
+				B4ABA0EC28C3853B009D0B71 /* tekiase.png in Resources */,
+				B4ABA0DF28C3553F009D0B71 /* duel.mp3 in Resources */,
+				B4ABA0E528C38534009D0B71 /* syujinkouase_emi.png in Resources */,
+				B4ABA0ED28C3853B009D0B71 /* tekiemi.png in Resources */,
+				B4ABA0EF28C38548009D0B71 /* hutari.png in Resources */,
+				B4ABA0FD28C3A272009D0B71 /* syujinkou.png in Resources */,
+				B4ABA0E728C38534009D0B71 /* syujinkouemi.png in Resources */,
+				B4897E4728C08B7600BF07DB /* Main.storyboard in Resources */,
+				B4ABA0D928C348D3009D0B71 /* nc263171.mp3 in Resources */,
+				B4ABA0F928C3A25B009D0B71 /* make.png in Resources */,
+				B4ABA0F728C3A24B009D0B71 /* hikiwake.png in Resources */,
+				B4ABA0E128C35D2A009D0B71 /* guiter.mp3 in Resources */,
+				B4ABA0F328C38B0C009D0B71 /* decision-6.mp3 in Resources */,
+				B4ABA0FF28C3A75E009D0B71 /* naguru.mp3 in Resources */,
+				B4ABA0FB28C3A269009D0B71 /* teki.png in Resources */,
+				B4ABA0F128C38B00009D0B71 /* panch.mp3 in Resources */,
+				B4ABA0D728C348CD009D0B71 /* MusMus-BGM-122.mp3 in Resources */,
+				B4ABA0F528C3A241009D0B71 /* kathi.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4897E3828C08B7600BF07DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4897E4428C08B7600BF07DB /* ViewController.swift in Sources */,
+				B4ABA0DD28C3531E009D0B71 /* RendaManagerV.swift in Sources */,
+				B4897E5928C097F800BF07DB /* startViewController.swift in Sources */,
+				B4897E4028C08B7600BF07DB /* AppDelegate.swift in Sources */,
+				B47B3C8928C26DE70082C5F4 /* novelViewController.swift in Sources */,
+				B4897E4228C08B7600BF07DB /* SceneDelegate.swift in Sources */,
+				B4897E5728C0976500BF07DB /* ScoreViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4897E4528C08B7600BF07DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4897E4628C08B7600BF07DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4897E4A28C08B7700BF07DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4897E4B28C08B7700BF07DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4897E4E28C08B7700BF07DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4897E4F28C08B7700BF07DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4897E5128C08B7700BF07DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D4U5M63U27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Renda_Arrenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lifech.Renda-Arrenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4897E5228C08B7700BF07DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D4U5M63U27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Renda_Arrenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lifech.Renda-Arrenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4897E3728C08B7600BF07DB /* Build configuration list for PBXProject "Renda_Arrenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4897E4E28C08B7700BF07DB /* Debug */,
+				B4897E4F28C08B7700BF07DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4897E5028C08B7700BF07DB /* Build configuration list for PBXNativeTarget "Renda_Arrenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4897E5128C08B7700BF07DB /* Debug */,
+				B4897E5228C08B7700BF07DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4897E3428C08B7600BF07DB /* Project object */;
+}
